@@ -34,6 +34,9 @@ Requires:	zlib-devel
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+# no binary code, but platform dependent paths inside
+%define		_enable_debug_packages	0
+
 %description
 This distribution provides zlib so that it can be used by other
 Perl distributions that are on CPAN. It does this by first trying to
