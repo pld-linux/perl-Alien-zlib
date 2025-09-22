@@ -8,7 +8,7 @@ Summary:	Alien::zlib - Find or build zlib
 Summary(pl.UTF-8):	Alien::zlib - znajdowanie lub budowanie biblioteki zlib
 Name:		perl-Alien-zlib
 Version:	0.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -31,7 +31,6 @@ BuildRequires:	perl-Test2-Suite
 BuildRequires:	zlib-devel
 Requires:	perl-Alien-Base >= 0.038
 Requires:	zlib-devel
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # no binary code, but platform dependent paths inside
